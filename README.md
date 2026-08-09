@@ -2,8 +2,8 @@
 
 Download, compile, and install Node on Unix-like systems.
 
-[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/node-build/test.yml?label=tests&logo=github)](https://github.com/nodenv/node-build/actions/workflows/test.yml)
-[![Latest GitHub Release](https://img.shields.io/github/v/release/nodenv/node-build?label=github&logo=github&sort=semver)](https://github.com/nodenv/node-build/releases/latest)
+[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/node-build/test.yml?label=tests&logo=github)](https://github.com/Unity-Billal-mesloub/node-build/actions/workflows/test.yml)
+[![Latest GitHub Release](https://img.shields.io/github/v/release/nodenv/node-build?label=github&logo=github&sort=semver)](https://github.com/Unity-Billal-mesloub/node-build/releases/latest)
 [![Latest Homebrew Release](https://img.shields.io/homebrew/v/node-build?logo=homebrew&logoColor=white)](https://formulae.brew.sh/formula/node-build)
 [![Latest npm Release](https://img.shields.io/npm/v/@nodenv/node-build?logo=npm&logoColor=white)](https://www.npmjs.com/package/@nodenv/node-build/v/latest)
 
@@ -46,7 +46,7 @@ brew upgrade node-build
 
 ### Clone as nodenv plugin using git
 ```sh
-git clone https://github.com/nodenv/node-build.git "$(nodenv root)"/plugins/node-build
+git clone https://github.com/Unity-Billal-mesloub/node-build.git "$(nodenv root)"/plugins/node-build
 ```
 
 Upgrade with:
@@ -56,7 +56,7 @@ git -C "$(nodenv root)"/plugins/node-build pull
 
 ### Install manually as a standalone program
 
-First, download a tarball from https://github.com/nodenv/node-build/releases/latest. Then:
+First, download a tarball from https://github.com/Unity-Billal-mesloub/node-build/releases/latest. Then:
 ```sh
 tar -xzf node-build-*.tar.gz
 PREFIX=/usr/local ./node-build-*/install.sh
@@ -224,18 +224,3 @@ Also, check out the [ruby-build wiki][].
 If you can't find an answer on the wiki, open an issue on the [issue tracker][].
 Be sure to include the full build log for build failures.
 
-## Credits
-
-Forked from [Sam Stephenson][]'s [ruby-build][] by [Will McKenzie][]
-and modified for node.
-
-  [nodenv]: https://github.com/nodenv/nodenv#readme
-  [definitions]: https://github.com/nodenv/node-build/tree/main/share/node-build
-  [wiki]: https://github.com/nodenv/node-build/wiki
-  [build-env]: https://github.com/nodenv/node-build/wiki#suggested-build-environment
-  [issue tracker]: https://github.com/nodenv/node-build/issues
-  [node-build-update-defs]: https://github.com/nodenv/node-build-update-defs
-  [Sam Stephenson]: https://github.com/sstephenson
-  [Will McKenzie]: https://github.com/oinutter
-  [ruby-build]: https://github.com/rbenv/ruby-build
-  [ruby-build wiki]: https://github.com/rbenv/ruby-build/wiki
